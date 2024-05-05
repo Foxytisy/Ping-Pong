@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "pingpong",
+	"version": "${version}",
+	"name": "Ping Pong!",
+	"description": "This is an",
+	"authors": [
+		"Foxytisy aka Zurkuviirs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/pingpong/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.zurkuviirs.pingpong.PingPong"
+		],
+		"fabric-datagen": [
+			"com.zurkuviirs.pingpong.PingPongDataGenerator"
+		]
+	},
+	"mixins": [
+		"pingpong.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
