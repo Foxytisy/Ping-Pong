@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"client": [
 			"com.zurkuviirs.pingpong.PingPong"
-		],
-		"fabric-datagen": [
-			"com.zurkuviirs.pingpong.PingPongDataGenerator"
 		]
 	},
 	"mixins": [
