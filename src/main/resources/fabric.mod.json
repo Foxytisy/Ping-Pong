@@ -19,16 +19,10 @@
 			"com.zurkuviirs.pingpong.PingPong"
 		]
 	},
-	"mixins": [
-		"pingpong.mixins.json"
-	],
 	"depends": {
-		"fabricloader": ">=0.15.1",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=21",
+		"fabric-api": ">=${fabric_version}"
 	}
 }
